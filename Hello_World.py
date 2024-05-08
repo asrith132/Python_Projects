@@ -70,7 +70,7 @@ def show():
 
         #This is the case of human winning
         elif (choice == 1 and randomChoice == 3) or (choice == 2 and randomChoice == 1) or (choice == 3 and randomChoice == 2)  :
-            displayText = "You win nigga!"
+            displayText = "You win!"
             humanScore += 1
             humanLabel.config(text = str(humanScore))
             displayLabel.config(text = displayText)
@@ -78,7 +78,7 @@ def show():
 
         #score is probably 3    
         else:
-            displayText = "You lose nigger!"
+            displayText = "You lose!"
             botScore += 1
             botLabel.config(text = str(botScore))
             displayLabel.config(text = displayText)
